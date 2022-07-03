@@ -43,7 +43,7 @@
         }
     </style>
 </head>
-<body>
+<body class=" bg-light">
 
 <!-- Navbar-->
 <header class="header">
@@ -166,10 +166,9 @@
                 </div>
             </div>
         </section>
-        <section class="mt-5">
+        <section >
             <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center"
-                 data-bss-parallax-bg="true"
-                 style="height: auto;background: url(./assets/img/px-bg-tabs.jpg) center / cover;">
+                 data-bss-parallax-bg="true" style="height: auto;background: url(./assets/img/px-bg-tabs.jpg) center / cover;">
                 <div class="d-flex d-xxl-flex justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center"
                      style="width: 100%;height: 100%;">
                     <!-- Start: 1 Row 1 Column -->
@@ -181,22 +180,23 @@
                                 <div style="padding: 2em;margin-top: 2rem; border-radius: 2rem">
                                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                         <li class="nav-item tab-my" role="presentation">
-                                            <button class="nav-link tab-button active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                                            <button class="nav-link tab-button btn-nav active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">OBRAS</button>
                                         </li>
                                         <li class="nav-item tab-my" role="presentation">
-                                            <button class="nav-link tab-button" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                                            <button class="nav-link tab-button btn-nav" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">DIRECTOR</button>
                                         </li>
                                         <li class="nav-item tab-my" role="presentation">
-                                            <button class="nav-link tab-button" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                                            <button class="nav-link tab-button btn-nav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ELENCO</button>
                                         </li>
                                     </ul>
-                                    <div class="tab-content border-2 " id="pills-tabContent">
+                                    <div class="tab-content border-tabs p-5" id="pills-tabContent">
                                         <div class="tab-pane fade show active text-light" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                            <h4>Sobre las obras</h4>
-                                            <p>
-                                                "ROMEO & JULIETA" y "MACBETH" son piezas profundas y
-                                                populares de William Shakespeare. Las producciones de Paul
-                                                Stebbings con escenarios históricos estilizados permiten al público
+                                            <h4 class="text-primary">Sobre las obras</h4>
+                                            <p> <span class="text-primary">"ROMEO & JULIETA"</span>
+                                                 y <span class="text-primary"> "MACBETH" </span> son piezas profundas y
+                                                populares de William Shakespeare. Las producciones de
+                                                <span class="text-primary  text-decoration-underline">Paul Stebbings</span>
+                                                 con escenarios históricos estilizados permiten al público
                                                 concentrarse en las obras.
                                             </p>
                                             <p>
@@ -207,12 +207,49 @@
                                             <p>
                                                 Ofrecemos dos versiones de actuación a su medida:
                                             </p>
+                                            <img src="./assets/img/timers.svg" alt="">
+                                            <div class="w100 d-flex py-3 justify-content-end">
+                                                <a href="#" class="text-primary  text-end">Ver más &gt;&gt;</a>
+                                            </div>
                                         </div>
                                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-
+                                            <h4 class="text-primary">Sobre el director</h4>
+                                            <p>
+                                                Paul Stebbings se desempeña como director artístico del
+                                                <span class="text-primary">TNT
+                                                Britain Theatre</span>
+                                                y de The American Drama Groupe Europe.
+                                            </p>
+                                            <p>
+                                                Desde el año 2006, Stebbings colabora regularmente con
+                                                <span class="text-primary  text-decoration-underline">Teatro
+                                                Espressivo</span>, no solo como director y adaptador, sino además en
+                                                una relación que ha traído a Costa Rica montajes suyos de El Rey
+                                                Lear, Macbeth, La fierecilla domada, entre otros.
+                                            </p>
+                                            <p>
+                                                En el 2013 Paul Stebbings es nombrado Miembro de la Orden del
+                                                Imperio Británico por sus servicios en la promoción y divulgación
+                                                el Teatro y la cultura británica.
+                                            </p>
+                                            <div class="w100 d-flex py-3 justify-content-end">
+                                                <a href="#" class="text-primary  text-end">Ver más &gt;&gt;</a>
+                                            </div>
                                         </div>
                                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-
+                                            <h4 class="text-primary">Sobre el elenco</h4>
+                                            <p> Un solo elenco es capaz de presentar las dos producciones y viajar
+                                                con un montaje selecto, es decir, pueden actuar en cualquier lugar
+                                                que tenga una audiencia.
+                                            </p>
+                                            <p>
+                                                Latina, desde el Teatro Nacional de Costa Rica hasta un salón de
+                                                la iglesia en la selva tropical y el pabellón deportivo de las escuelas.
+                                                "La obra es el asunto" <span class="fst-italic">(Hamlet)</span>.
+                                            </p>
+                                            <div class="w100 d-flex py-3 justify-content-end">
+                                                <a href="#" class="text-primary  text-end">Ver más &gt;&gt;</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -223,12 +260,58 @@
                 </div>
             </div><!-- End: Parallax Background -->
         </section>
+        <section>
+            <div class="container mt-5 py-5">
+                <div class="row text-center">
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                    <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
+                        <h5>Actividades complementarias</h5>
+                        <p class="mt-3 pe-5 ps-5">
+                            Ofrecemos una gama completa de talleres y actividades
+                            educativas, discusiones posteriores y previas al espectáculo
+                            para acompañar las actuaciones, según las
+                            necesidades del espacio o institución.
+                        </p>
+                        <div class="row row-cols-2 row-cols-md-2 g-4 mt-5">
+                            <div class="col">
+                                <div class="card text-white ">
+                                    <img src="./assets/img/img-complemento-1.png" class="card-img easy-card" alt="...">
+                                    <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
+                                        <div class="row">
+                                            <img src="./assets/img/icon-demo.svg" height="60px" alt="">
+                                            <h6 class="text-light py-4">TALLERES</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-white ">
+                                    <img src="./assets/img/img-complemento-2.png" class="card-img easy-card" alt="...">
+                                    <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
+                                        <div class="row">
+                                            <img src="./assets/img/icon-demo.svg" height="60px" alt="">
+                                            <h6 class="text-light py-4">CONVERSATORIOS</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col">
+                                <button class="btn btn-primary btn-lg w-auto text-light" data-bss-hover-animate="pulse" type="submit">Contáctenos</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
+                </div>
+            </div>
+        </section>
     </main>
-<footer class="page-footer bg-grey">
+<footer class="page-footer bg-footer">
     <div class="container">
         <div class="row" style="padding-top: 2em;padding-bottom: 2em;">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-                <h5>ESPRESSIVO</h5>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                <h5>GIRA TNT + ESPRESSIVO</h5>
                 <p>
                     El mejor lugar para vivir el arte
                     en Costa Ricadonde también
@@ -237,31 +320,21 @@
                     este de San José.
                 </p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ps-5">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 ps-5">
                 <h5>ENLACES</h5>
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-5 text-start border-start border-dark border-1 ps-3">
                         <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Asesorias técnicas</a></li>
-                            <li><a href="#">Contenido artístico</a></li>
-                            <li><a href="#">Sala VIP reuniones</a></li>
-                            <li><a href="#">Alimentación</a></li>
-                        </ul>
-                    </div>
-                    <div class="col border-start border-dark border-2"></div>
-                    <div class="col-5">
-                        <ul class="list-unstyled">
-                            <li><a href="#">Portafolio</a></li>
-                            <li><a href="#">Mapa</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contacto</a></li>
-                            <li><a href="#">Aviso de privacidad</a></li>
+                            <li><a class="text-decoration-underline" href="#">Home</a></li>
+                            <li><a class="text-decoration-underline" href="#">TNT Theatre</a></li>
+                            <li><a class="text-decoration-underline" href="#">Obras</a></li>
+                            <li><a class="text-decoration-underline" href="#">Actividades</a></li>
+                            <li><a class="text-decoration-underline" href="#">Blog</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-start ps-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-start ps-3">
                 <h5>CONTACTO</h5>
                 <div class="row">
                     <div class="col-1">
@@ -290,8 +363,8 @@
             </div>
         </div>
     </div>
-    <div class="footer-copyright btn-primary" style="padding: 0;margin: 0;">
-        <p>© 2022 espressivo Derechos Reservados</p>
+    <div class="footer-copyright bg-primary" style="padding: 0;margin: 0;">
+        <p class="text-light p-1 fs-6">© 2022 TNT Theatre y Teatro Espressivo | Derechos Reservados</p>
     </div>
 </footer><!-- End: Footer -->
 </body>

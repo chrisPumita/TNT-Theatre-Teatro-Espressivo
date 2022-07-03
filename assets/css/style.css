@@ -26,7 +26,7 @@
 .bg-grey{background-color: var(--grey) !important;}
 .bg-greyligth{background-color: var(--greyligth) !important;}
 .bg-secondary{background-color: var(--secondary) !important;}
-
+.bg-footer{background-color: var(--fondo) !important;}
 .bg-blue{background-color: var(--primary_ligth) !important;}
 .bg-violet{background-color: var(--violet) !important;}
 
@@ -55,6 +55,7 @@
 .btn{
     border-radius: 10px;
     font-size: 1rem;
+    padding: 3px 1rem 3px 1rem;
 }
 
 .btn-primary{
@@ -105,6 +106,11 @@ hr{
     font-size: 1rem;
     text-transform: capitalize !important;
 }
+
+.page-footer ul li:before, .page-footer ul li:after {
+     background-color: transparent !important;
+}
+
 
 /*MyStyles*/
 .menu{
@@ -229,6 +235,13 @@ input[type="text"], .send-email{
     margin: auto;
     text-align: center;
 }
+
+.btn-nav{
+    border-color: var(--primary) !important;
+    color: var(--ligth) !important;
+    border: 1px solid var(--primary) !important;
+}
+
 .nav-pills .nav-link {
     width:100% !important;
     background: none;
@@ -238,6 +251,13 @@ input[type="text"], .send-email{
 
 .tab-button{
     border-radius: 1.25rem 1.25rem 0rem 0rem !important;
+}
+
+.border-tabs{
+    border-color: var(--primary) !important;
+    color: var(--ligth) !important;
+    border: 1px solid var(--primary) !important;
+    margin-top: -1rem;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
