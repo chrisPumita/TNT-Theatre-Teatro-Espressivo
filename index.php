@@ -6,14 +6,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bienvenidos - Espressivo </title>
+    <title>Latin America Tour 2023 | GIRA TNT + ESPRESSIVO</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="twitter:description" content="">
-    <meta name="twitter:title" content="">
+    <meta http-equiv="twitter:description" content="Latin America Tour 2023">
+    <meta name="twitter:title" content="Latin America Tour 2023">
     <meta property="og:image" content="assets/img/logo.svg">
-    <meta name="description" content="">
+    <meta name="description" content="Teatro Espressivo y TNT Britain Theatre colaboran acercando dos emblemáticas
+                                        obras de teatro a los centros educativos en su Tour 2023 por algunos pasíses
+                                        de Latinoamérica.">
     <meta property="og:type" content="website">
     <meta name="twitter:image" content="assets/img/logo.svg">
     <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
@@ -50,12 +52,13 @@
     <nav class="navbar navbar-black navbar-dark bg-dark navbar-expand-lg clean-navbar" style="z-index: 99;">
         <div class="container">
             <a href="./"><img src="assets/img/logo.svg" style="width: 250px;" alt="Logo" loading="lazy"></a>
-            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
-                <span class="navbar-text w-100 d-flex justify-content-sm-start justify-content-md-end">
+                <span class="navbar-text w-100 d-flex justify-content-sm-start justify-content-xl-end nav-container">
                 <ul class="navbar-nav ms-5 aos-init aos-animate" data-bss-disabled-mobile="true" data-aos="fade">
                     <li class="nav-item" >
-                        <a class="nav-link text-light active" data-bss-hover-animate="pulse" href="#" >Home</a>
+                        <a class="nav-link active" data-bss-hover-animate="pulse" href="./" >Home</a>
                     </li>
                     <li class="nav-item text-light" data-bss-hover-animate="pulse">
                         <a class="nav-link text-light" href="#" >TNT Theatre</a>
@@ -70,7 +73,9 @@
                         <a class="nav-link text-light" href="#" >Blog</a>
                     </li>
                     <li class="nav-item text-light" data-bss-hover-animate="pulse">
-                        <button class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit"><i class="far fa-envelope text-light"></i> Contacto</button>
+                        <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
+                            <i class="far fa-envelope text-light"></i> Contacto
+                        </a>
                     </li>
                 </ul>
                 </span>
@@ -110,7 +115,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-6 col-xxl-6 position-relative ">
                         <img class="img-responsive" src="./assets/img/fig-header.png" alt="">
-                        <div class="row position-absolute bottom-0 start-50 translate-middle-x" style="height: 150px; width:100%">
+                        <div class="row position-absolute bottom-0 start-50 translate-middle-x header-hoja" style="height: 150px; width:100%">
                             <div class="col-6 col-sm-6 pb-sm-5 ps-sm-5">
                                 <img  class="img-responsive" width="150" src="./assets/img/hoja.svg" alt="">
                             </div>
@@ -125,7 +130,7 @@
 </header>
     <main class="page landing-page">
         <section class=" bg-grey">
-            <div class="container pt-5">
+            <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-12 col-sm-5">
                         <h5 class="text-primary mt-5">TNT Theatre Britain</h5>
@@ -138,8 +143,19 @@
                             una narración clara con un teatro físico apasionante.
                         </p>
                         <a href="#" class=" text-link">Ver más >></a>
-                        <div class="row py-5">
-                            <div class="card " style="width: 100%; height:350px;">
+
+                    </div>
+                    <div class="col-12 col-sm-7 mt-5 mt-sm-0  d-flex align-content-center justify-content-center  position-relative">
+                        <div class="row">
+                            <img class="" height="500" src="./assets/img/map.svg" alt="Logos eventos">
+                        </div>
+                        <div class="row position-absolute top-50 end-0 translate-middle-y more">
+                            <img class="img-responsive mb-0 mb-sm-5 ps-5" width="80" src="./assets/img/more.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-5">
+                        <div class="row py-5 tour-absolute">
+                            <div class="card-tour" style="z-index: 1">
                                 <div class="card-body bg-secondary p-5">
                                     <h1 class="card-title text-light" style="font-size: 4rem;"><strong>TOUR <br> LATINO <br> AMÉRICA</strong></h1>
                                     <h6 class="text-primary">Abril y mayo de 2023</h6>
@@ -153,14 +169,6 @@
                                     <button class="btn btn-primary btn-lg w-75 text-black" data-bss-hover-animate="pulse" type="submit">Contáctenos</button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-7 mt-5 mt-sm-0  d-flex align-content-center justify-content-center  position-relative">
-                        <div class="row">
-                            <img class="" height="500" src="./assets/img/map.svg" alt="Logos eventos">
-                        </div>
-                        <div class="row position-absolute top-50 end-0 translate-middle-y more">
-                            <img class="img-responsive mb-0 mb-sm-5 ps-5" width="80" src="./assets/img/more.svg" alt="">
                         </div>
                     </div>
                 </div>
@@ -177,7 +185,7 @@
                             <div class="col-md-6 position-relative d-flex justify-content-center">
                             </div>
                             <div class="col-md-6 align-self-end order-2">
-                                <div style="padding: 2em;margin-top: 2rem; border-radius: 2rem">
+                                <div class="p-1 p-sm-2" style="margin-top: 2rem; border-radius: 2rem">
                                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                         <li class="nav-item tab-my" role="presentation">
                                             <button class="nav-link tab-button btn-nav active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">OBRAS</button>
@@ -189,7 +197,7 @@
                                             <button class="nav-link tab-button btn-nav" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ELENCO</button>
                                         </li>
                                     </ul>
-                                    <div class="tab-content border-tabs p-5" id="pills-tabContent">
+                                    <div class="tab-content border-tabs p-3 p-md-5" id="pills-tabContent">
                                         <div class="tab-pane fade show active text-light" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                             <h4 class="text-primary">Sobre las obras</h4>
                                             <p> <span class="text-primary">"ROMEO & JULIETA"</span>
@@ -208,7 +216,7 @@
                                                 Ofrecemos dos versiones de actuación a su medida:
                                             </p>
                                             <img src="./assets/img/timers.svg" alt="">
-                                            <div class="w100 d-flex py-3 justify-content-end">
+                                            <div class="w-100 d-flex py-3 justify-content-end">
                                                 <a href="#" class="text-primary  text-end">Ver más &gt;&gt;</a>
                                             </div>
                                         </div>
@@ -265,7 +273,7 @@
                 <div class="row text-center">
                     <div class="col-1 col-sm-1 col-md-1 col-lg-3 col-xl-3 col-xxl-3"></div>
                     <div class="col-10 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
-                        <h5>Actividades complementarias</h5>
+                        <h5 clas="text-primary">Actividades complementarias</h5>
                         <p class="mt-3 pe-5 ps-5">
                             Ofrecemos una gama completa de talleres y actividades
                             educativas, discusiones posteriores y previas al espectáculo
@@ -309,62 +317,56 @@
     </main>
 <footer class="page-footer bg-footer">
     <div class="container">
-        <div class="row" style="padding-top: 2em;padding-bottom: 2em;">
+        <div class="row  text-muted" style="padding-top: 2em;padding-bottom: 2em;">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-                <h5>GIRA TNT + ESPRESSIVO</h5>
+                <h5 class="text-primary">GIRA TNT + ESPRESSIVO</h5>
                 <p>
-                    El mejor lugar para vivir el arte
-                    en Costa Ricadonde también
-                    podrá degustar la mejor gastronomía
-                    y realizar eventos en el
-                    este de San José.
+                    Teatro Espressivo y TNT Britain
+                    Theatre colaboran acercando
+                    dos emblemáticas obras de
+                    teatro a los centros educativos
+                    en su Tour 2023 por algunos
+                    pasíses de Latinoamérica.
                 </p>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 ps-5">
-                <h5>ENLACES</h5>
+            <div class="col-4 col-sm-5 col-md-6 col-lg-4 col-xl-4 col-xxl-4  ps-md-5">
+                <h5 class="text-primary">ENLACES</h5>
                 <div class="row">
                     <div class="col-5 text-start border-start border-dark border-1 ps-3">
                         <ul class="list-unstyled">
-                            <li><a class="text-decoration-underline" href="#">Home</a></li>
-                            <li><a class="text-decoration-underline" href="#">TNT Theatre</a></li>
-                            <li><a class="text-decoration-underline" href="#">Obras</a></li>
-                            <li><a class="text-decoration-underline" href="#">Actividades</a></li>
-                            <li><a class="text-decoration-underline" href="#">Blog</a></li>
+                            <li><a class="text-decoration-underline text-muted" href="#">Home</a></li>
+                            <li><a class="text-decoration-underline text-muted" href="#">TNT Theatre</a></li>
+                            <li><a class="text-decoration-underline text-muted" href="#">Obras</a></li>
+                            <li><a class="text-decoration-underline text-muted" href="#">Actividades</a></li>
+                            <li><a class="text-decoration-underline text-muted" href="#">Blog</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-start ps-3">
-                <h5>CONTACTO</h5>
+            <div class="col-8 col-sm-7 col-md-6 col-lg-4 col-xl-4 col-xxl-4  ps-3">
+                <h5 class="text-primary">CONTACTO</h5>
                 <div class="row">
-                    <div class="col-1">
-                        <h6><i class="fas fa-map-marker-alt me-3"></i></h6>
-                    </div>
-                    <div class="col-11">
-                        <p class="ms-2">Momentum pinares, Teatro espressivo</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1">
+                    <div class="col-2 col-sm-1">
                         <h6><i class="fas fa-phone-alt"></i></h6>
                     </div>
-                    <div class="col-11">
-                        <p class="ms-2">(+506) 6360 9158</p>
+                    <div class="col-10 col-sm-11">
+                        <p class="ms-2">T. (+506) 6360 9158 <br>
+                            T. (+506) 2267 1818</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-1">
+                    <div class="col-2 col-sm-1">
                         <h6><i class="fas fa-envelope"></i></h6>
                     </div>
-                    <div class="col-11">
-                        <p class="ms-2"> ventas@espressivo.cr</p>
+                    <div class="col-10 col-sm-11">
+                        <p class="ms-2"> info@espressivo.cr</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer-copyright bg-primary" style="padding: 0;margin: 0;">
-        <p class="text-light p-1 fs-6">© 2022 TNT Theatre y Teatro Espressivo | Derechos Reservados</p>
+        <p class="text-light p-1 fs-6 ">© 2022 TNT Theatre y Teatro Espressivo | Derechos Reservados</p>
     </div>
 </footer><!-- End: Footer -->
 </body>
