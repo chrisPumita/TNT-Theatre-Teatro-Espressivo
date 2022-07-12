@@ -15,9 +15,19 @@
     --greybold: #505050;
     --redmarck: #d50037;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&family=Roboto:wght@300&display=swap');
+
 *{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
+.titulo {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
 
 /*@over botstrap styles*/
 .bg-primary, .btn-primary{background-color: var(--primary) !important;}
@@ -181,7 +191,6 @@ input[type="text"], .send-email{
     width:350px;
 }
 
-
 .border-tittle {
     border: 0px dotted var(--primary);
     background-color: var(--primary);
@@ -196,6 +205,7 @@ input[type="text"], .send-email{
     border-radius: 0px 40px 0px 40px;
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     background: var(--secondary);
+    color: var(--primary) !important;
 }
 
 .img-responsive {
@@ -268,6 +278,22 @@ bt.email{
         border: 1px solid var(--primary) !important;
         margin-top: -1rem;
     }
+
+    .director{
+        top: 2rem;left: -5rem;width: 25rem !important;
+    }
+    .hoja-tnt{
+        top: -3rem !important;
+        left: -10rem !important;
+    }
+
+    .card-play {
+        border-radius: 2rem !important;
+        position: relative !important;
+        top: 0px !important;
+        height: 100% !important;
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 768px){
@@ -284,6 +310,17 @@ bt.email{
         right: 0px !important;
         top: 480px !important;
         width: 75%;
+    }
+
+    .director{
+        top: 2rem !important;
+        left: 0rem !important;
+        width: 100% !important;
+    }
+
+    .hoja-tnt{
+        top: -3rem !important;
+        left: -10rem !important;
     }
 }
 
@@ -306,7 +343,7 @@ bt.email{
         max-width:350px;
     }
 
-    .imagine, img{
+    .imagine img{
         width:300px;
     }
 
@@ -338,4 +375,95 @@ bt.email{
     .header-hoja{
         height:auto !important;
     }
+
+    .director-image{
+        width: 400px !important;
+        height: auto;
+    }
+
+    .hoja-rom {
+        top: 350px !important;
+        right: 70px !important;
+    }
+}
+
+
+.card-activity{
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination-tnt{
+    top: 2rem !important;
+    right: -15rem !important;
+    width: 100% !important;
+    bottom: 0px !important;
+    left: 15rem !important;
+}
+
+.bg-double-wabe{
+    background: linear-gradient(#FFFFFF 50%, var(--grey) 50% );
+}
+
+.director{
+    top: 2rem;left: -5rem;width: 35rem;
+}
+.director-image{
+    width: 550px;
+    height: auto;
+}
+
+.cartel{
+    border-radius: 1rem 1rem 1rem 1rem !important;
+    color: var(--ligth) !important;
+    border: 3px solid var(--secondary) !important;
+}
+
+.card-play{
+    border-radius: 2rem !important;
+    position: absolute;
+    top: -100px;
+    height: 500px;
+    padding: 1rem;
+}
+
+.hoja-din{
+    border: 0px dotted var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 150px 0px 150px 0px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding: 5px;
+    color: var(--ligth);
+    z-index: -1;
+}
+
+.hoja-rom{
+    border: 3px solid var(--secondary);
+    background-color: var(--fondo);
+    border-radius: 150px 0px 150px 0px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    padding: 5px;
+    color: var(--ligth);
+    z-index: 0;
+    top: 300px;
+    right: -5px;
+    position: absolute;
+}
+
+.video.col-12:hover ~ .hoja-din{
+    border: 0px dotted var(--primary);
+    background-color: var(--primary);
+    border-radius: 0px 150px 0px 150px;
+    transition: all ease .1s;
 }

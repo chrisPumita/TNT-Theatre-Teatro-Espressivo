@@ -12,17 +12,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="twitter:description" content="Latin America Tour 2023">
     <meta name="twitter:title" content="Latin America Tour 2023">
-    <meta property="og:image" content="assets/img/logo.svg">
+    <meta property="og:image" content="assets/img/icon.svg">
     <meta name="description" content="Teatro Espressivo y TNT Britain Theatre colaboran acercando dos emblemáticas
                                         obras de teatro a los centros educativos en su Tour 2023 por algunos pasíses
                                         de Latinoamérica.">
     <meta property="og:type" content="website">
-    <meta name="twitter:image" content="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
-    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/logo.svg">
+    <meta name="twitter:image" content="assets/img/icon.svg">
+    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/icon.svg">
+    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/icon.svg">
+    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/icon.svg">
+    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/icon.svg">
+    <link rel="icon" type="image/png" sizes="1280x571" href="assets/img/icon.svg">
     <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
@@ -47,32 +47,35 @@
 <header class="header">
     <nav class="navbar navbar-light bg-light navbar-expand-lg clean-navbar" style="z-index: 99;">
         <div class="container">
-            <a href="./"><img src="assets/img/logo.svg" style="width: 250px;" alt="Logo" loading="lazy"></a>
+            <a href="./">
+                <img src="assets/img/logo-g.svg" class="w-100" alt="Logo" loading="lazy">
+            </a>
             <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
                 <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <span class="navbar-text w-100 d-flex justify-content-sm-start justify-content-xl-end nav-container">
-                <ul class="navbar-nav ms-5 aos-init aos-animate" data-bss-disabled-mobile="true" data-aos="fade">
-                    <li class="nav-item" >
-                        <a class="nav-link " data-bss-hover-animate="pulse" href="./" >Home</a>
-                    </li>
-                    <li class="nav-item" data-bss-hover-animate="pulse">
-                        <a class="nav-link active" href="#" >TNT Theatre</a>
-                    </li>
-                    <li class="nav-item" data-bss-hover-animate="pulse">
-                        <a class="nav-link" href="#" >Obras</a>
-                    </li>
-                    <li class="nav-item" data-bss-hover-animate="pulse">
-                        <a class="nav-link" href="#" >Actividades</a>
-                    </li>
-                    <li class="nav-item" data-bss-hover-animate="pulse">
-                        <a class="nav-link" href="#" >Blog</a>
-                    </li>
-                    <li class="nav-item" data-bss-hover-animate="pulse">
-                        <button class="btn btn-outline-primary btn-lg text-secondary" data-bss-hover-animate="pulse" type="submit">
-                            <i class="far fa-envelope"></i> Contacto</button>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav ms-5 aos-init aos-animate" data-bss-disabled-mobile="true" data-aos="fade">
+                        <li class="nav-item" >
+                            <a class="nav-link" data-bss-hover-animate="pulse" href="./" >Home</a>
+                        </li>
+                        <li class="nav-item " data-bss-hover-animate="pulse">
+                            <a class="nav-link " href="./tnt-theatre.php" >TNT Theatre</a>
+                        </li>
+                        <li class="nav-item " data-bss-hover-animate="pulse">
+                            <a class="nav-link " href="./theater-plays.php" >Obras</a>
+                        </li>
+                        <li class="nav-item " data-bss-hover-animate="pulse">
+                            <a class="nav-link " href="./activities.php" >Actividades</a>
+                        </li>
+                        <li class="nav-item " data-bss-hover-animate="pulse">
+                            <a class="nav-link " href="#" >Blog</a>
+                        </li>
+                        <li class="nav-item " data-bss-hover-animate="pulse">
+                            <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
+                                <i class="far fa-envelope"></i> Contacto
+                            </a>
+                        </li>
+                    </ul>
                 </span>
             </div>
         </div>
@@ -88,7 +91,7 @@
                 <div class="container p-5">
                     <div class="row align-items-center mt-5 mb-5">
                         <div class="col-12 position-relative d-flex justify-content-center">
-                            <div class="border-tittle w-auto ps-5 pe-5 pt-3 pb-3 text-black">
+                            <div class="border-tittle w-auto ps-5 pe-5 pt-3 pb-3 fs-3 text-secondary">
                                 <strong>Tour Latinoamérica 2023</strong> TNT Theatre
                                 <span class="text-light">+</span> Teatro Espressivo
                                 <span class="text-light">• ABRIL y MAYO</span>
@@ -105,7 +108,7 @@
                     <div class="row container-headers py-5">
                         <div class="col-12 col-md-6">
                             <h2 class="text-primary py-3">Contáctenos</h2>
-                            <p class="text-texto py-3">
+                            <p class="text-texto py-3 text-gray"">
                                 Nuestro equipo TNT Theatre Britain + Espressivo Gira
                                 2023 se pondrá en contacto con usted para brindarle la
                                 atención que usted necesite.
@@ -152,7 +155,7 @@
                                             <li>
                                                 <input type="checkbox" id="terms" required>
                                                 <label for="terms" class="form-label text-grey">He leído y acepto
-                                                    <a class="text-link" href="" data-bs-toggle="modal" data-bs-target="#modalPrivate">términos y condiciones.</a>
+                                                    <a class="text-link" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms">términos y condiciones.</a>
                                                 </label>
                                             </li>
                                             <li>
@@ -161,7 +164,6 @@
                                                     <button class="btn btn-grid bg-primary text-light" type="submit" disabled>
                                                     <span class="back">
                                                         <i class="fas fa-paper-plane"></i>
-                                                        <img src="./assets/image/email-icon.svg" alt="">
                                                     </span>
                                                     <span class="front">Enviar</span>
                                                     </button>
@@ -174,7 +176,7 @@
                             </div>
                         </div>
                         <div  class="col-12 col-md-6 p-5">
-                            <p class="text-texto py-3 m-sm-5">
+                            <p class="text-texto py-3 m-sm-5 text-gray"">
                                 También puede contactarnos directamente
                                 en nuestros canales adicionales..
                             </p>
@@ -189,7 +191,7 @@
                                             <span class="button-text"> <i class="fab fa-whatsapp"></i> &nbsp;WhatsApp Bussines</span>
                                         </button>
                                     </a>
-                                    <p class="ms-2 py-3 pb-5">
+                                    <p class="ms-2 py-3 pb-5 text-gray"">
                                         T. (+506) 6360 9158 <br>
                                         T. (+506) 2267 1818
                                     </p>
@@ -203,8 +205,8 @@
                                             <span class="button-text"><i class="far fa-envelope"></i>&nbsp;e-mail</span>
                                         </button>
                                     </a>
-                                    <p class="ms-2 py-3 pb-5">
-                                        theatrelatinamerica@gmail.com
+                                    <p class="ms-2 py-3 pb-5 text-gray"">
+                                    ventas@espressivo.cr
                                     </p>
                                 </div>
                             </div>
@@ -215,59 +217,10 @@
     </section>
 </main>
 <footer class="page-footer bg-footer">
-    <div class="container">
-        <div class="row  text-muted" style="padding-top: 2em;padding-bottom: 2em;">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-                <h5 class="text-primary">GIRA TNT + ESPRESSIVO</h5>
-                <p>
-                    Teatro Espressivo y TNT Britain
-                    Theatre colaboran acercando
-                    dos emblemáticas obras de
-                    teatro a los centros educativos
-                    en su Tour 2023 por algunos
-                    pasíses de Latinoamérica.
-                </p>
-            </div>
-            <div class="col-4 col-sm-5 col-md-6 col-lg-4 col-xl-4 col-xxl-4  ps-md-5">
-                <h5 class="text-primary">ENLACES</h5>
-                <div class="row">
-                    <div class="col-5 text-start border-start border-dark border-1 ps-3">
-                        <ul class="list-unstyled">
-                            <li><a class="text-decoration-underline text-muted" href="#">Home</a></li>
-                            <li><a class="text-decoration-underline text-muted" href="#">TNT Theatre</a></li>
-                            <li><a class="text-decoration-underline text-muted" href="#">Obras</a></li>
-                            <li><a class="text-decoration-underline text-muted" href="#">Actividades</a></li>
-                            <li><a class="text-decoration-underline text-muted" href="#">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-8 col-sm-7 col-md-6 col-lg-4 col-xl-4 col-xxl-4  ps-3">
-                <h5 class="text-primary">CONTACTO</h5>
-                <div class="row">
-                    <div class="col-2 col-sm-1">
-                        <h6><i class="fas fa-phone-alt"></i></h6>
-                    </div>
-                    <div class="col-10 col-sm-11">
-                        <p class="ms-2">T. (+506) 6360 9158 <br>
-                            T. (+506) 2267 1818</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2 col-sm-1">
-                        <h6><i class="fas fa-envelope"></i></h6>
-                    </div>
-                    <div class="col-10 col-sm-11">
-                        <p class="ms-2"> info@espressivo.cr</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright bg-primary" style="padding: 0;margin: 0;">
-        <p class="text-light p-1 fs-6 ">© 2022 TNT Theatre y Teatro Espressivo | Derechos Reservados</p>
-    </div>
+    <?php include "_footer.php"?>
 </footer><!-- End: Footer -->
+<?php include "terms-modal.php"?>
+
 </body>
 
 <script type="text/javascript">
@@ -282,16 +235,17 @@
     });
 
 </script>
-
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/boostrap/js/bootstrap.min.js"></script>
 <script src="assets/js/script.min.js"></script>
 <script src="./assets/vendors/fontawesome-5.15.4/js/fontawesome.min.js"></script>
 <script src="./assets/vendors/fontawesome-5.15.4/js/all.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
 
+<script src="./ajax/mailContact.js"></script>
 
 </html>
