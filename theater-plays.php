@@ -83,20 +83,21 @@
 </header>
 <main class="page landing-page">
     <section >
-        <div class="container">
-            <div class="border-tittle px-3 position-absolute" style="margin-top: -1rem;">
+        <div class="container p-3">
+            <div class="border-tittle px-3 position-absolute" style="margin-top: 2rem;">
                 Tour Latinoamérica 2023 <strong> - ABRIL Y MAYO</strong>
             </div>
-            <div class="row my-5 p-sm-3 p-xl-5 cartel p-5">
-                <div class="col-12 col-sm-5 col-xl- d-flex justify-content-center align-items-center align-content-center flex-wrap">
-                    <h1 class="titulo text-primary fw-bold">Las Obras:
-                        Macbeth y
+            <div class="row mt-5 p-sm-3 p-xl-5 cartel p-1 p-sm-5">
+                <div class="col-12 col-sm-12 col-md-5 col-xl-6 d-flex align-items-center align-content-center flex-wrap">
+                    <h1 class="titulo text-primary text-sm-start mt-3" style="font-weight: 500;line-height: 0.8;font-size: 3rem !important;">
+                        Las Obras: <br>
+                        Macbeth y <br>
                         Romeo & Julieta</h1>
-                    <p class="small text-gray">Un solo elenco es capaz de presentar ambas producciones
+                    <p class="small text-gray pe-sm-5 py-3">Un solo elenco es capaz de presentar ambas producciones
                         en un solo día, adaptándose a las necesidades de
                         cada espacio.</p>
                 </div>
-                <div class="col-12 col-sm-7 col-xl-6">
+                <div class="col-12 col-sm-12 col-md-7 col-xl-6">
                     <div class="row">
                         <div class="col-6">
                             <div class="position-relative" style="width: 100%;height: 260px;">
@@ -189,7 +190,7 @@
                             éxito entre la crítica y el público: presentándose en más
                             de 37 países.
                         </p>
-                        <div class="col ps-5 py-3">
+                        <div class="col ps-5 py-3 text-center text-sm-start">
                             <a href="./contacto.php" class="btn btn-primary btn-lg px-5 text-secondary fw-bold" data-bss-hover-animate="pulse" type="submit">
                                 Contáctenos
                             </a>
@@ -209,7 +210,7 @@
                 </div>
             </div>
         </div>
-        <div style="margin-top: -5rem;">
+        <div class="pt-5 pt-sm-0" style="margin-top: -5rem;">
             <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
                     .path-0{
                         animation:pathAnim-0 4s;
@@ -301,12 +302,12 @@
                             China y ha visitado más de 30 países desde su estreno
                             hace más de 10 años.
                         </p>
-                        <div class="col-12 ps-5 py-3">
+                        <div class="col-12 ps-5 py-3 text-center text-sm-start">
                             <a href="./contacto.php" class="btn btn-primary btn-lg px-5 text-secondary fw-bold" data-bss-hover-animate="pulse" type="submit">
                                 Contáctenos
                             </a>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 ms-3 pt-5">
                             <img class="img-responsive p-3 pb-5" width="250" src="./assets/img/cite-2.svg" alt="">
                         </div>
                     </div>

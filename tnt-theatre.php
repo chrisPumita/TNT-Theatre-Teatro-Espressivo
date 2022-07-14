@@ -87,7 +87,7 @@
             <div class="row" style="margin: 0;">
                 <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-6 col-xxl-6 d-flex align-content-center justify-content-center align-items-center">
                     <div class="row p-sm-5">
-                        <h1 class="text-primary mt-5 mb-5 titulo">TNT Theatre Britain</h1>
+                        <h1 class="text-primary mt-5 mb-5 titulo text-center text-sm-start">TNT Theatre Britain</h1>
                         <p class="text-light small">
                             Este ensamble teatral fue fundado en Inglaterra (1980)
                             por <span class="text-primary  text-decoration-underline">Paul Stebbings</span>  y otros actores entrenados en el
@@ -211,7 +211,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-double-wabe">
+    <section class="bg-double-wabe" id="director">
         <div class="container-fluid mt-3 mt-sm-5  py-3 py-sm-5">
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 col-xxl-8 ">

@@ -104,115 +104,115 @@
     </section>
     <section>
         <div class="container mt-5 py-5">
-                <div class="container justify-content-center align-items-center">
-                    <div class="row container-headers py-5">
-                        <div class="col-12 col-md-6">
-                            <h2 class="text-primary py-3">Contáctenos</h2>
-                            <p class="text-texto py-3 text-gray"">
-                                Nuestro equipo TNT Theatre Britain + Espressivo Gira
-                                2023 se pondrá en contacto con usted para brindarle la
-                                atención que usted necesite.
-                            </p>
-                            <div class="row pt-5">
-                                <div class="col">
-                                    <form class="my-form" id="frm-contacto">
-                                        <ul class="ps-0">
-                                            <li>
-                                                <div class="grid grid-1">
-                                                    <input type="email" id="email" name="email" placeholder="Correo electrónico*" required>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="grid grid-1">
-                                                    <input type="text" id="name" name="name" placeholder="Nombre y apellido*" required>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="grid grid-1">
-                                                    <input type="text" id="institucion" name="institucion" placeholder="Institución*" required>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="grid grid-1">
-                                                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono*" required>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="grid grid-1">
-                                                    <input type="tel" id="telefono2" name="telefono2" placeholder="Teléfono 2 (opcional)">
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <label for="pais" class="form-label text-grey">Obra de interés:</label>
-                                                <select name="obra" id="obra">
-                                                    <option value="Macbeth by Shakespeare">Macbeth by Shakespeare</option>
-                                                    <option value="Romeo & Julieta">Romeo & Julieta</option>
-                                                </select>
-                                            </li>
-                                            <li>
-                                                <textarea name="comentario" id="comentario"  placeholder="Comentarios (opcional)"></textarea>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" id="terms" required>
-                                                <label for="terms" class="form-label text-grey">He leído y acepto
-                                                    <a class="text-link" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms">términos y condiciones.</a>
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <div class="grid grid-3" >
-                                                    <div class="required-msg">Requerido</div>
-                                                    <button class="btn btn-grid bg-primary text-light" type="submit" disabled>
-                                                    <span class="back">
-                                                        <i class="fas fa-paper-plane"></i>
-                                                    </span>
-                                                    <span class="front">Enviar</span>
-                                                    </button>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </form>
-                                    <span id="actionSend" ></span>
-                                </div>
+            <div class="container justify-content-center align-items-center">
+                <div class="row container-headers py-5">
+                    <div class="col-12 col-md-6">
+                        <h2 class="text-primary py-3">Contáctenos</h2>
+                        <p class="text-texto py-3 text-gray"">
+                            Nuestro equipo TNT Theatre Britain + Espressivo Gira
+                            2023 se pondrá en contacto con usted para brindarle la
+                            atención que usted necesite.
+                        </p>
+                        <div class="row pt-5">
+                            <div class="col">
+                                <form class="my-form" id="frm-contacto">
+                                    <ul class="ps-0">
+                                        <li>
+                                            <div class="grid grid-1">
+                                                <input type="email" id="email" name="email" placeholder="Correo electrónico*" required>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="grid grid-1">
+                                                <input type="text" id="name" name="name" placeholder="Nombre y apellido*" required>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="grid grid-1">
+                                                <input type="text" id="institucion" name="institucion" placeholder="Institución*" required>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="grid grid-1">
+                                                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono*" required>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="grid grid-1">
+                                                <input type="tel" id="telefono2" name="telefono2" placeholder="Teléfono 2 (opcional)">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label for="pais" class="form-label text-grey">Obra de interés:</label>
+                                            <select name="obra" id="obra">
+                                                <option value="Macbeth by Shakespeare">Macbeth by Shakespeare</option>
+                                                <option value="Romeo & Julieta">Romeo & Julieta</option>
+                                            </select>
+                                        </li>
+                                        <li>
+                                            <textarea name="comentario" id="comentario"  placeholder="Comentarios (opcional)"></textarea>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="terms" required>
+                                            <label for="terms" class="form-label text-grey">He leído y acepto
+                                                <a class="text-link" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms">términos y condiciones.</a>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <div class="grid grid-3" >
+                                                <div class="required-msg">Requerido</div>
+                                                <button class="btn btn-grid bg-primary text-light" type="submit" disabled>
+                                                <span class="back">
+                                                    <i class="fas fa-paper-plane"></i>
+                                                </span>
+                                                <span class="front">Enviar</span>
+                                                </button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                                <span id="actionSend" ></span>
                             </div>
                         </div>
-                        <div  class="col-12 col-md-6 p-5">
-                            <p class="text-texto py-3 m-sm-5 text-gray"">
-                                También puede contactarnos directamente
-                                en nuestros canales adicionales..
-                            </p>
-                            <div class="col m-auto text-center py-sm-5">
-                                <div class="row">
-                                    <!-- 50663609158 -->
-                                    <a href="https://api.whatsapp.com/send?phone=50663609158" target="_blank">
-                                        <button class="learn-more mt-5">
-                                        <span class="circle whatsapp-btn" aria-hidden="true">
-                                            <span class="icon arrow"></span>
+                    </div>
+                    <div  class="col-12 col-md-6 p-5">
+                        <p class="text-texto py-3 m-sm-5 text-gray"">
+                            También puede contactarnos directamente
+                            en nuestros canales adicionales..
+                        </p>
+                        <div class="col m-auto text-center py-sm-5">
+                            <div class="row">
+                                <!-- 50663609158 -->
+                                <a href="https://api.whatsapp.com/send?phone=50663609158" target="_blank">
+                                    <button class="learn-more mt-5">
+                                    <span class="circle whatsapp-btn" aria-hidden="true">
+                                        <span class="icon arrow"></span>
+                                    </span>
+                                        <span class="button-text"> <i class="fab fa-whatsapp"></i> &nbsp;WhatsApp Bussines</span>
+                                    </button>
+                                </a>
+                                <p class="ms-2 py-3 pb-5 text-gray"">
+                                    T. (+506) 6360 9158 <br>
+                                    T. (+506) 2267 1818
+                                </p>
+                            </div>
+                            <div class="row">
+                                <a href="mailto:theatrelatinamerica@gmail.com">
+                                    <button class="learn-more mt-5">
+                                        <span class="circle mail-btn" aria-hidden="true">
+                                          <span class="icon arrow"></span>
                                         </span>
-                                            <span class="button-text"> <i class="fab fa-whatsapp"></i> &nbsp;WhatsApp Bussines</span>
-                                        </button>
-                                    </a>
-                                    <p class="ms-2 py-3 pb-5 text-gray"">
-                                        T. (+506) 6360 9158 <br>
-                                        T. (+506) 2267 1818
-                                    </p>
-                                </div>
-                                <div class="row">
-                                    <a href="mailto:theatrelatinamerica@gmail.com">
-                                        <button class="learn-more mt-5">
-                                            <span class="circle mail-btn" aria-hidden="true">
-                                              <span class="icon arrow"></span>
-                                            </span>
-                                            <span class="button-text"><i class="far fa-envelope"></i>&nbsp;e-mail</span>
-                                        </button>
-                                    </a>
-                                    <p class="ms-2 py-3 pb-5 text-gray"">
-                                    ventas@espressivo.cr
-                                    </p>
-                                </div>
+                                        <span class="button-text"><i class="far fa-envelope"></i>&nbsp;e-mail</span>
+                                    </button>
+                                </a>
+                                <p class="ms-2 py-3 pb-5 text-gray"">
+                                ventas@espressivo.cr
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
 </main>

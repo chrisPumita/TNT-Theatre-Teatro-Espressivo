@@ -16,6 +16,7 @@ textarea,
 button {
     font-family: inherit;
     font-size: 100%;
+    border-radius: 1rem !important;
 }
 
 button,

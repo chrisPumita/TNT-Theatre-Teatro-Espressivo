@@ -92,10 +92,10 @@
                            </div>
                         </div>
                         <div class="row py-5">
-                            <span class="fst-italic text-light fs-5 py-3"> Teatro en su centro educativo</span>
+                            <span class="fst-italic text-light fs-5 py-3  text-center text-md-start"> Teatro en su centro educativo</span>
                             <img src="./assets/img/header-tittle.svg" alt="">
                         </div>
-                        <div class="row ps-5">
+                        <div class="row ps-md-5  text-center text-md-start">
                             <p class="text-light small">
                                 TNT Theatre y Teatro Espressivo le presentan la gira 2023
                                 “Romeo y Julieta” / “Macbeth”. Su centro educativo podrá disfrutar
@@ -105,12 +105,12 @@
                             </p>
                         </div>
                         <div class="row d-flex align-content-center justify-content-center align-items-center justify-content-center">
-                            <div class="col-sm-6 ps-5 py-3">
-                                <a href="./contacto.php" class="btn btn-primary btn-lg px-5 text-secondary fw-bold" data-bss-hover-animate="pulse" type="submit">
+                            <div class="col-sm-6 ps-md-5 py-3 text-center text-sm-start">
+                                <a href="./contacto.php" class="btn btn-primary btn-lg px-5 text-secondary fw-bold " data-bss-hover-animate="pulse" type="submit">
                                     Contáctenos
                                 </a>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 text-center text-sm-start">
                                 <img src="./assets/img/focus.svg" height="60px" alt="">
                             </div>
                         </div>
@@ -135,7 +135,7 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-12 col-sm-5">
-                        <h4 class="text-primary mt-5 titulo">TNT Theatre Britain</h4>
+                        <h4 class="text-primary mt-5 titulo text-center text-sm-start">TNT Theatre Britain</h4>
                         <p class="mt-5 text-gray">
                             TNT Theatre es la compañía itinerante que <span class="text-primary">más funciones
                             ha dado de las obras de Shakespeare en todo el
@@ -144,9 +144,7 @@
                             las producciones accesibles y dinámicas que combinan
                             una narración clara con un teatro físico apasionante.
                         </p>
-                        <!--
-                        <a href="#" class=" text-link">Ver más >></a>
-                        -->
+                        <a href="./tnt-theatre.php" class=" text-link">Ver más>></a>
                     </div>
                     <div class="col-12 col-sm-7 mt-5 mt-sm-0  d-flex align-content-center justify-content-center  position-relative">
                         <div class="row">
@@ -159,11 +157,11 @@
                     <div class="col-12 col-sm-12 col-md-5">
                         <div class="row py-5 tour-absolute">
                             <div class="card-tour" style="z-index: 1">
-                                <div class="card-body bg-secondary p-5">
-                                    <h1 class="card-title text-light" style="font-size: 4rem;">
+                                <div class="card-body bg-secondary p-3 p-md-5 pb-5">
+                                    <h1 class="card-title text-light" style="font-size: 3.8rem;">
                                         <strong>TOUR <br> LATINO <br> AMÉRICA</strong></h1>
                                     <h4 class="text-primary titulo">Abril y mayo de 2023</h4>
-                                    <p class="card-text text-light py-5">
+                                    <p class="card-text text-light py-3 py-sm-5">
                                         En abril y mayo de 2023, TNT en alianza
                                         con <span class="text-primary">Teatro Espressivo </span>
                                         revive la gira por
@@ -224,7 +222,9 @@
                                                 Ofrecemos dos versiones de actuación a su medida:
                                             </p>
                                             <img src="./assets/img/timers.svg" alt="">
-
+                                            <div class="w-100 d-flex py-3 justify-content-end">
+                                                <a href="./theater-plays.php" class="text-primary  text-end">Ver más &gt;&gt;</a>
+                                            </div>
                                         </div>
                                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                             <h4 class="text-primary titulo py-3">Sobre el director</h4>
@@ -246,12 +246,9 @@
                                                 Imperio Británico por sus servicios en la promoción y divulgación
                                                 el Teatro y la cultura británica.
                                             </p>
-                                            <!--
-                                                                                        <div class="w-100 d-flex py-3 justify-content-end">
-                                                <a href="#" class="text-primary  text-end">Ver más &gt;&gt;</a>
+                                            <div class="w-100 d-flex py-3 justify-content-end">
+                                                <a href="./tnt-theatre.php#director" class="text-primary  text-end">Ver más &gt;&gt;</a>
                                             </div>
-                                            -->
-
                                         </div>
                                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                                             <h4 class="text-primary titulo py-3">Sobre el elenco</h4>
@@ -264,11 +261,9 @@
                                                 la iglesia en la selva tropical y el pabellón deportivo de las escuelas.
                                                 "La obra es el asunto" <span class="fst-italic">(Hamlet)</span>.
                                             </p>
-                                            <!--
-                                                                                        <div class="w-100 d-flex py-3 justify-content-end">
-                                                <a href="#" class="text-primary  text-end">Ver más &gt;&gt;</a>
+                                            <div class="w-100 d-flex py-3 justify-content-end">
+                                                <a href="./theater-plays.php" class="text-primary  text-end">Ver más &gt;&gt;</a>
                                             </div>
-                                            -->
                                         </div>
                                     </div>
                                 </div>

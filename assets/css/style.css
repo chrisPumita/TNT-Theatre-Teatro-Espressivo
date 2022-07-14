@@ -180,7 +180,7 @@ hr{
     border: 0px !important;
 }
 .easy-card {
-    border-radius: 3rem !important;
+    border-radius: 2rem !important;
 }
 .card, .easy-card:hover{
     border-radius: 22.3rem !important;
@@ -426,13 +426,28 @@ bt.email{
     border: 3px solid var(--secondary) !important;
 }
 
+.cartel:hover{
+    border: 3px solid var(--primary) !important;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    transition: all ease .1s;
+}
+
 .card-play{
     border-radius: 2rem !important;
     position: absolute;
     top: -100px;
-    height: 500px;
+    height: 450px;
     padding: 1rem;
 }
+.card-play:hover{
+    border-radius: 0rem !important;
+    background-color: black !important;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    transition: all ease .1s;
+}
+
 
 .hoja-din{
     border: 0px dotted var(--secondary);
@@ -467,3 +482,60 @@ bt.email{
     border-radius: 0px 150px 0px 150px;
     transition: all ease .1s;
 }
+
+.talleres-cards{
+    border-radius: 1.3rem !important;
+    background-color: #ffffff !important;
+    border: 0px !important;
+    border: 3px solid var(--secondary) !important;
+}
+
+.talleres-cards:hover{
+    border: 3px solid var(--primary) !important;
+    background-color:var(--secondary) !important;
+    color: var(--ligth) !important;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    -moz-box-shadow: 2px 2px 5px #999;
+    transition: all ease .1s;
+}
+
+/*PANORAMICA*/
+
+.imagenPano-footer{
+    background-image: url(../img/actvivities-footer.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-size: cover;
+}
+
+.imagenPano {
+    -webkit-animation: animatedBackground 15s alternate ease-in-out infinite;
+    animation-name: mov-izq;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    -moz-animation-name: mov-izq;
+    -moz-animation-duration: 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-delay: 0s;
+    -webkit-animation-name: mov-izq;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+}
+
+
+@keyframes mov-izq{
+    0% { background-position: 0em }
+    100%{background-position:-800px}
+}
+@-webkit-keyframes mov-izq{
+    0% { background-position: 0em }
+    100%{background-position:-800px}
+}
+
