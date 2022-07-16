@@ -271,6 +271,18 @@ bt.email{
     background: var(--secondary) !important;
 }
 
+@media (max-width: 1199px){
+    .video-container{
+        height: 325px !important;
+        padding-bottom: 2rem;
+    }
+
+    .hoja-rom {
+        top: 250px !important;
+        right: 0px !important;
+    }
+}
+
 @media (max-width: 991px){
     .nav-container{
         border-color: var(--primary) !important;
@@ -293,6 +305,43 @@ bt.email{
         top: 0px !important;
         height: 100% !important;
         padding: 1rem;
+    }
+
+    .video-container{
+        height: 200px !important;
+        padding-bottom: 2rem;
+    }
+    .hoja-rom {
+        top: 150px !important;
+        right: 0px !important;
+    }
+
+    .position-absolute .img-more-map {
+        padding: 0px !important;
+        height: 25px !important;
+        margin-right: 100px !important;
+    }
+
+    .tour-absolute {
+        position: relative !important;
+        width: 100% !important;
+        margin-top: 0rem !important;
+    }
+
+    .card-tour {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .director {
+        top: 0rem !important;
+        left: 0rem !important;
+        width: 100% !important;
+    }
+
+    .director-image {
+        width: auto !important;
+        height: 100% !important;
     }
 }
 
@@ -321,6 +370,11 @@ bt.email{
     .hoja-tnt{
         top: -3rem !important;
         left: -10rem !important;
+    }
+
+    .video-container{
+        height: 325px !important;
+        padding-bottom: 2rem;
     }
 }
 
@@ -385,6 +439,11 @@ bt.email{
         top: 350px !important;
         right: 70px !important;
     }
+
+    .video-container{
+        height: 300px !important;
+        padding-bottom: 2rem;
+    }
 }
 
 
@@ -440,13 +499,7 @@ bt.email{
     height: 450px;
     padding: 1rem;
 }
-.card-play:hover{
-    border-radius: 0rem !important;
-    background-color: black !important;
-    -webkit-box-shadow: 2px 2px 5px #999;
-    -moz-box-shadow: 2px 2px 5px #999;
-    transition: all ease .1s;
-}
+
 
 
 .hoja-din{
@@ -465,13 +518,13 @@ bt.email{
     border: 3px solid var(--secondary);
     background-color: var(--fondo);
     border-radius: 150px 0px 150px 0px;
-    width: 350px;
+    width: 400px;
     height: 150px;
     text-align: center;
     padding: 5px;
     color: var(--ligth);
     z-index: 0;
-    top: 300px;
+    top: 400px;
     right: -5px;
     position: absolute;
 }
@@ -499,6 +552,13 @@ bt.email{
     transition: all ease .1s;
 }
 
+.active-action:hover, .director:hover {
+    -webkit-box-shadow: 15px 15px 20px #999;
+    -moz-box-shadow: 15px 15px 20px #999;
+    border: 0px solid var(--ligth) !important;
+    background-color:var(--secondary) !important;
+    transition: all ease .1s;
+}
 /*PANORAMICA*/
 
 .imagenPano-footer{
@@ -539,3 +599,22 @@ bt.email{
     100%{background-position:-800px}
 }
 
+.box{
+    border-radius: 3px;
+    transition: .2s all;
+}
+.box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+}
+.box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+}
+.video-container{
+    height: 450px;
+    padding-bottom: 2rem;
+}

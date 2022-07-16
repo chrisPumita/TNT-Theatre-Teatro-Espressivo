@@ -67,9 +67,6 @@
                         <li class="nav-item " data-bss-hover-animate="pulse">
                             <a class="nav-link active" href="./activities.php" >Actividades</a>
                         </li>
-                        <li class="nav-item " data-bss-hover-animate="pulse">
-                            <a class="nav-link" href="#" >Blog</a>
-                        </li>
                         <li class="nav-item" data-bss-hover-animate="pulse">
                             <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
                                 <i class="far fa-envelope"></i> Contacto
@@ -83,18 +80,19 @@
 </header>
 <main class="page landing-page">
     <section>
-        <div class="container-fluid pb-5 imagenPano" style="background: url(./assets/img/header-activities.jpg) no-repeat center; background-size: cover;height: 450px;">
-
+        <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center"
+             data-bss-parallax-bg="true" style="height: auto;background: url(./assets/img/header-activities.jpg) center / cover; background-size: cover;height: 250px;">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="col position-relative">
-                            <div>
-                                <img class="" width="250" src="./assets/img/hoja.svg" alt="" style="top: 400px;left: 0rem;position: absolute;">
-                            </div>
-                        </div>
+
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container position-relative">
+            <div class="position-absolute">
+                <img class="hoja-top" width="250" src="./assets/img/hoja.svg" alt="" style="top: -50px;left: 0rem;position: absolute;">
             </div>
         </div>
         <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center"
@@ -127,7 +125,7 @@
         </div><!-- End: Parallax Background -->
     </section>
     <section>
-        <div class="container">
+        <div class="container" id="conversatorios">
             <div class="row m-0" >
                 <div class="col d-md-flex">
                     <div class="col-12 col-sm-12 col-md-4 col-xl-6 d-flex align-items-center">
@@ -154,8 +152,6 @@
                                                 orgánico, y preguntas preparadas previamente
                                                 por el profesorado relacionadas con
                                                 su plan de estudios o temas de ensayo.
-
-
                                             </p>
                                             <p class="text-gray small">
                                                 <span class="text-primary fw-bold">Conversación bidireccional</span>
@@ -182,7 +178,7 @@
         </div>
     </section>
     <section>
-        <div class="container py-5">
+        <div class="container py-5" id="talleres">
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="row d-flex align-content-center justify-content-center align-items-center">

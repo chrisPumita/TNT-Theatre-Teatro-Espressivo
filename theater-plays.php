@@ -68,9 +68,6 @@
                             <a class="nav-link " href="./activities.php" >Actividades</a>
                         </li>
                         <li class="nav-item " data-bss-hover-animate="pulse">
-                            <a class="nav-link " href="#" >Blog</a>
-                        </li>
-                        <li class="nav-item " data-bss-hover-animate="pulse">
                             <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
                                 <i class="far fa-envelope"></i> Contacto
                             </a>
@@ -98,9 +95,9 @@
                         cada espacio.</p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-7 col-xl-6">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="position-relative" style="width: 100%;height: 260px;">
+                    <div class="row box-wrap">
+                        <div class="col-6 box">
+                            <div class="position-relative " style="width: 100%;height: 260px;">
                                 <div class=" bg-secondary card-play d-flex align-items-center">
                                     <div class="container position-relative text-center">
                                         <div class="row">
@@ -109,7 +106,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <a href="#" class="btn btn-outline-primary">Ver más</a>
+                                            <a href="#view-1" class="btn btn-outline-primary">Ver más</a>
                                             <div class="col py-3">
                                                 <img class="" width="60" src="./assets/img/craneo.svg" alt="">
                                             </div>
@@ -118,8 +115,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="position-relative" style="width: 100%;height: 260px;">
+                        <div class="col-6 box">
+                            <div class="position-relative " style="width: 100%;height: 260px;">
                                 <div class="bg-blue card-play d-flex align-items-center">
                                     <div class="container position-relative text-center">
                                         <div class="row">
@@ -128,7 +125,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <a href="#" class="btn btn-outline-primary">Ver más</a>
+                                            <a href="#view-2" class="btn btn-outline-primary">Ver más</a>
                                             <div class="col py-3">
                                                 <img class="" width="60" src="./assets/img/pergamino.svg" alt="">
                                             </div>
@@ -143,9 +140,9 @@
         </div>
     </section>
     <section>
-        <div class="container pt-5">
+        <div class="container pt-5" id="view-1">
             <div class="row pt-5">
-                <div class="ol-12 col-sm-12 col-md-6 col-xl-5">
+                <div class="col-12 col-sm-12 col-md-6 col-xl-5">
                     <div class="row py-3 m-auto">
                         <div class="col-12">
                             <img class="p-3 pb-5" width="300px" src="./assets/img/obra-1-1.svg" alt="">
@@ -200,8 +197,8 @@
                 <div class="col-12 col-sm-12 col-md-6 col-xl-7 position-relative">
                     <div class="hoja-din position-absolute d-none d-sm-none d-md-block"></div>
                     <div class="row py-5 video">
-                        <div class="col-12 d-flex justify-content-center">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XiziRW80lq8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="col-12 d-flex justify-content-center video-container">
+                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/XiziRW80lq8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
                             <img class="img-responsive" width="auto" height="400" src="./assets/img/obra-1-desc-min.jpg" alt="">
@@ -210,6 +207,7 @@
                 </div>
             </div>
         </div>
+
         <div class="pt-5 pt-sm-0" style="margin-top: -5rem;">
             <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
                     .path-0{
@@ -263,7 +261,7 @@
 
     </section>
     <section class=" bg-grey">
-        <div class="container">
+        <div class="container" id="view-2">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-xl-5 order-1 order-md-2 order-sm-1 ">
                     <div class="row py-3 m-auto">
@@ -315,8 +313,8 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-xl-7 order-2 order-md-1 order-sm-2 position-relative">
                     <div class="row py-5 video">
-                        <div class="col-12 d-flex justify-content-center" style="z-index: 1;">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/M9fIZn7_89k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="col-12 d-flex justify-content-center video-container" style="z-index: 1;">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/M9fIZn7_89k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="col-12" style="height: 100px;">
                             <div class="hoja-rom d-none d-sm-none d-md-block"></div>

@@ -68,9 +68,6 @@
                             <a class="nav-link " href="./activities.php" >Actividades</a>
                         </li>
                         <li class="nav-item " data-bss-hover-animate="pulse">
-                            <a class="nav-link " href="#" >Blog</a>
-                        </li>
-                        <li class="nav-item " data-bss-hover-animate="pulse">
                             <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
                                 <i class="far fa-envelope"></i> Contacto
                             </a>
@@ -197,7 +194,7 @@
                                 </p>
                             </div>
                             <div class="row">
-                                <a href="mailto:theatrelatinamerica@gmail.com">
+                                <a href="mailto:ventas@espressivo.cr">
                                     <button class="learn-more mt-5">
                                         <span class="circle mail-btn" aria-hidden="true">
                                           <span class="icon arrow"></span>

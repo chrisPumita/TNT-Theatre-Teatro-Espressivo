@@ -70,9 +70,6 @@
                             <a class="nav-link text-light" href="./activities.php" >Actividades</a>
                         </li>
                         <li class="nav-item text-light" data-bss-hover-animate="pulse">
-                            <a class="nav-link text-light" href="#" >Blog</a>
-                        </li>
-                        <li class="nav-item text-light" data-bss-hover-animate="pulse">
                             <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
                                 <i class="far fa-envelope text-light"></i> Contacto
                             </a>
@@ -85,7 +82,7 @@
     <div class="container-fluid pb-5">
         <div class="container">
             <div class="row" style="margin: 0;">
-                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-6 col-xxl-6 d-flex align-content-center justify-content-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 col-xxl-6 d-flex align-content-center justify-content-center align-items-center">
                     <div class="row p-sm-5">
                         <h1 class="text-primary mt-5 mb-5 titulo text-center text-sm-start">TNT Theatre Britain</h1>
                         <p class="text-light small">
@@ -105,7 +102,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-6 col-xxl-6 position-relative ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 col-xxl-6 position-relative ">
                     <img class="img-responsive py-5" src="./assets/img/tnt-header.png" alt="">
                 </div>
             </div>
@@ -124,7 +121,7 @@
                                     <!-- Start: Simple Slider -->
                                     <div class="simple-slider">
                                         <!-- Start: Slideshow -->
-                                        <div class="swiper-container" style="height: 90vh;">
+                                        <div class="swiper swiper-container mySwiper " style="height: 90vh;">
                                             <!-- Start: Slide Wrapper -->
                                             <div class="d-xl-flex align-items-xl-center swiper-wrapper">
                                                 <!-- Start: Slide -->
@@ -151,21 +148,7 @@
                     <div class="col-12 col-sm-12 col-md-6 d-flex align-items-center">
                         <div class="container">
                             <div class="row">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 position-relative d-flex align-items-center">
-                                    <div class="row d-flex flex-column justify-content-center">
-                                        <div class="col">
-                                            <h5 class="text-primary fw-bold px-3 py-5">Con presentaciones
-                                                en Costa Rica desde
-                                                el año 2006.</h5>
-                                        </div>
-                                        <div class="col position-relative">
-                                            <div>
-                                                <img class="hoja-tnt" width="250" src="./assets/img/hoja.svg" alt="" style="top: -2rem;left: -6rem;position: absolute;z-index: 1;">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 d-flex align-content-center justify-content-center align-items-center">
+                                <div class="col-12 col-sm-12 col-md-10 col-xl-10  col-xxl-8">
                                     <div class="row px-sm-3">
                                         <h1 class="text-primary mt-5 mb-5 titulo">Teatro Espressivo + TNT Theatre</h1>
                                         <p class="text-gray small">
@@ -203,6 +186,26 @@
                                             </a>
                                         </div>
                                     </div>
+                                    <div class="row d-flex flex-column justify-content-center">
+                                        <div class="col-12 col-sm-8 col-md-8 col-xl-6">
+                                            <h5 class="text-primary fw-bold px-3 pb-5">Con presentaciones
+                                                en Costa Rica desde
+                                                el año 2006.</h5>
+                                        </div>
+                                        <div class="col position-relative">
+                                            <div>
+                                                <img class="hoja-tnt" width="250" src="./assets/img/hoja.svg" alt=""
+                                                     style="top: -20rem;left: -15rem;position: absolute;z-index: 1;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 position-relative d-flex align-items-center">
+
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 d-flex align-content-center justify-content-center align-items-center">
+
                                 </div>
                             </div>
                         </div>
@@ -212,14 +215,14 @@
         </div>
     </section>
     <section class="bg-double-wabe" id="director">
-        <div class="container-fluid mt-3 mt-sm-5  py-3 py-sm-5">
+        <div class="container-fluid mt-sm-0 mt-mb-5 mt-xl-3 mt-xl-5 py-xl-3 py-xl-5">
             <div class="row d-flex align-items-center justify-content-center">
-                <div class="col-12 col-sm-10 col-md-10 col-lg-8 col-xl-8 col-xxl-8 ">
+                <div class="col-12 col-sm-10 col-md-12 col-lg-8 col-xl-8 col-xxl-8 ">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center justify-content-xl-end">
                             <img class="director-image" width="auto" height="400" src="./assets/img/Paul-min.jpg" alt="">
                         </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-sm-0">
                             <div class="bg-secondary text-start  text-light px-3 px-sm-5 py-5 position-relative director" >
                                 <h4 class="text-primary titulo py-3">EL DIRECTOR</h4>
                                 <h1 class="card-title" style="font-size: 3rem;">  <strong>PAUL STEBBINGS</strong></h1>
@@ -289,5 +292,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
-
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: .1,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        }
+    });
+</script>
 </html>

@@ -70,9 +70,6 @@
                             <a class="nav-link text-light" href="./activities.php" >Actividades</a>
                         </li>
                         <li class="nav-item text-light" data-bss-hover-animate="pulse">
-                            <a class="nav-link text-light" href="#" >Blog</a>
-                        </li>
-                        <li class="nav-item text-light" data-bss-hover-animate="pulse">
                             <a href="./contacto.php" class="btn btn-outline-primary btn-lg" data-bss-hover-animate="pulse" type="submit">
                                 <i class="far fa-envelope text-light"></i> Contacto
                             </a>
@@ -95,7 +92,7 @@
                             <span class="fst-italic text-light fs-5 py-3  text-center text-md-start"> Teatro en su centro educativo</span>
                             <img src="./assets/img/header-tittle.svg" alt="">
                         </div>
-                        <div class="row ps-md-5  text-center text-md-start">
+                        <div class="row ps-xl-5  text-center text-md-start">
                             <p class="text-light small">
                                 TNT Theatre y Teatro Espressivo le presentan la gira 2023
                                 “Romeo y Julieta” / “Macbeth”. Su centro educativo podrá disfrutar
@@ -105,17 +102,17 @@
                             </p>
                         </div>
                         <div class="row d-flex align-content-center justify-content-center align-items-center justify-content-center">
-                            <div class="col-sm-6 ps-md-5 py-3 text-center text-sm-start">
+                            <div class="col-sm-12 col-xl-6 ps-xl-5 py-3 text-center text-xl-start">
                                 <a href="./contacto.php" class="btn btn-primary btn-lg px-5 text-secondary fw-bold " data-bss-hover-animate="pulse" type="submit">
                                     Contáctenos
                                 </a>
                             </div>
-                            <div class="col-sm-6 text-center text-sm-start">
+                            <div class="col-sm-12  col-xl-6 text-center text-xl-start">
                                 <img src="./assets/img/focus.svg" height="60px" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-6 col-xxl-6 position-relative ">
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-6 col-xxl-6 position-relative d-md-flex align-items-center ">
                         <img class="img-responsive" src="./assets/img/fig-header.png" alt="">
                         <div class="row position-absolute bottom-0 start-50 translate-middle-x header-hoja" style="height: 150px; width:100%">
                             <div class="col-6 col-sm-6 pb-sm-5 ps-sm-5">
@@ -151,10 +148,10 @@
                             <img class="" height="500" src="./assets/img/map.svg" alt="Logos eventos">
                         </div>
                         <div class="row position-absolute top-50 end-0 translate-middle-y more">
-                            <img class="img-responsive mb-0 mb-sm-5 ps-5" width="80" src="./assets/img/more.svg" alt="">
+                            <img class="img-responsive img-more-map mb-0 mb-sm-5 ps-5" width="80" src="./assets/img/more.svg" alt="">
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-5">
+                    <div class="col-12 col-sm-12 col-xl-5">
                         <div class="row py-5 tour-absolute">
                             <div class="card-tour" style="z-index: 1">
                                 <div class="card-body bg-secondary p-3 p-md-5 pb-5">
@@ -188,9 +185,9 @@
                     <!-- Start: 1 Row 1 Column -->
                     <div class="container d-flex">
                         <div class="row align-items-center align-content-center mt-5 mb-5">
-                            <div class="col-md-6 position-relative d-flex justify-content-center">
+                            <div class="col-md-12 col-xl-6 position-relative d-flex justify-content-center">
                             </div>
-                            <div class="col-md-6 align-self-end order-2">
+                            <div class="col-md-12 col-xl-6 align-self-end order-2">
                                 <div class="p-1 p-sm-2" style="margin-top: 0rem; border-radius: 2rem">
                                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                         <li class="nav-item tab-my" role="presentation">
@@ -261,9 +258,6 @@
                                                 la iglesia en la selva tropical y el pabellón deportivo de las escuelas.
                                                 "La obra es el asunto" <span class="fst-italic">(Hamlet)</span>.
                                             </p>
-                                            <div class="w-100 d-flex py-3 justify-content-end">
-                                                <a href="./theater-plays.php" class="text-primary  text-end">Ver más &gt;&gt;</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -287,26 +281,30 @@
                         </p>
                         <div class="row row-cols-2 row-cols-md-2 g-2 mt-5 card-activity">
                             <div class="col">
-                                <div class="card text-white ">
-                                    <img src="./assets/img/img-complemento-1.png" class="card-img easy-card" alt="...">
-                                    <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
-                                        <div class="row">
-                                            <img src="./assets/img/icon1.svg" height="60px" alt="">
-                                            <h6 class="text-light py-4 fs-6">TALLERES</h6>
+                                <a href="./activities.php#talleres">
+                                    <div class="card text-white active-action">
+                                        <img src="./assets/img/img-complemento-1.png" class="card-img easy-card" alt="...">
+                                        <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
+                                            <div class="row">
+                                                <img src="./assets/img/icon1.svg" height="60px" alt="">
+                                                <h6 class="text-light py-4 fs-6">TALLERES</h6>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="col">
-                                <div class="card text-white ">
-                                    <img src="./assets/img/img-complemento-2.png" class="card-img easy-card" alt="...">
-                                    <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
-                                        <div class="row">
-                                            <img src="./assets/img/icon2.svg" height="60px" alt="">
-                                            <h6 class="text-light py-4 fs-6">CONVERSATORIOS</h6>
+                            <div class="col" role="button">
+                                <a href="./activities.php#conversatorios">
+                                    <div class="card text-white active-action">
+                                        <img src="./assets/img/img-complemento-2.png" class="card-img easy-card" alt="...">
+                                        <div class="card-img-overlay d-flex text-center justify-content-center align-items-center">
+                                            <div class="row">
+                                                <img src="./assets/img/icon2.svg" height="60px" alt="">
+                                                <h6 class="text-light py-4 fs-6">CONVERSATORIOS</h6>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="row mt-5">
