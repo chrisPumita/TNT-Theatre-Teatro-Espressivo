@@ -201,7 +201,7 @@
                             <iframe width="100%" height="auto" src="https://www.youtube.com/embed/XiziRW80lq8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
-                            <img class="img-responsive" width="auto" height="400" src="./assets/img/obra-1-desc-min.jpg" alt="">
+                            <img class="img-responsive p-0" width="auto" height="400" src="./assets/img/obra-1-desc-min.jpg" alt="">
                         </div>
                     </div>
                 </div>

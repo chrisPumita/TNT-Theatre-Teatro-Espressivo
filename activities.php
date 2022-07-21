@@ -80,8 +80,8 @@
 </header>
 <main class="page landing-page">
     <section>
-        <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center"
-             data-bss-parallax-bg="true" style="height: auto;background: url(./assets/img/header-activities.jpg) center / cover; background-size: cover;height: 250px;">
+        <div class="d-xl-flex d-xxl-flex align-items-xl-center justify-content-xxl-center align-items-xxl-center" data-bss-parallax-bg="true"
+             style="height: auto;background: url(./assets/img/header-activities.jpg) center / cover; background-size: cover;height: 350px;">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

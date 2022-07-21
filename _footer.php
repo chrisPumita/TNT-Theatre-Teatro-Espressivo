@@ -20,7 +20,7 @@
                             <li><a class="text-decoration-underline text-muted" href="./">Home</a></li>
                             <li><a class="text-decoration-underline text-muted" href="./contacto.php">Contacto</a></li>
                             <li><a class="text-decoration-underline text-muted" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms">Aviso de Privacidad</a></li>
-                            <li><a class="text-decoration-underline text-muted" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms-2">Terminos y Condiciones</a></li>
+                            <li><a class="text-decoration-underline text-muted" href=""  data-bs-toggle="modal" data-bs-target="#modal-terms-2">Términos y Condiciones</a></li>
                         </ul>
                     </div>
                 </div>
