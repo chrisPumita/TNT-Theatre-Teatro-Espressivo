@@ -160,7 +160,7 @@
                                     <h4 class="text-primary titulo">Abril y mayo de 2023</h4>
                                     <p class="card-text text-light py-3 py-sm-5">
                                         En abril y mayo de 2023, TNT en alianza
-                                        con <span class="text-primary">Teatro Espressivo </span>
+                                        con <a href="https://espressivo.cr/" target="_blank" class="text-primary">Teatro Espressivo </a>
                                         revive la gira por
                                         América Latina, llevando las producciones
                                         más populares, Macbeth y Romeo & Julieta,
@@ -206,7 +206,7 @@
                                             <p> <span class="text-primary fw-bold">"ROMEO & JULIETA"</span>
                                                  y <span class="text-primary fw-bold"> "MACBETH" </span> son piezas profundas y
                                                 populares de William Shakespeare. Las producciones de
-                                                <span class="text-primary  text-decoration-underline">Paul Stebbings</span>
+                                                <a href="tnt-theatre.php#director" class="text-primary  text-decoration-underline">Paul Stebbings</a>
                                                  con escenarios históricos estilizados permiten al público
                                                 concentrarse en las obras.
                                             </p>
@@ -227,14 +227,15 @@
                                             <h4 class="text-primary titulo py-3">Sobre el director</h4>
                                             <p>
                                                 Paul Stebbings se desempeña como director artístico del
-                                                <span class="text-primary">TNT
-                                                Britain Theatre</span>
+                                                <a href="./tnt-theatre.php" class="text-primary">TNT
+                                                Britain Theatre</a>
                                                 y de The American Drama Groupe Europe.
                                             </p>
                                             <p>
                                                 Desde el año 2006, Stebbings colabora regularmente con
-                                                <span class="text-primary  text-decoration-underline">Teatro
-                                                Espressivo</span>, no solo como director y adaptador, sino además en
+                                                <a href="https://espressivo.cr/" target="_blank" class="text-primary
+                                                text-decoration-underline">Teatro
+                                                Espressivo</a>, no solo como director y adaptador, sino además en
                                                 una relación que ha traído a Costa Rica montajes suyos de El Rey
                                                 Lear, Macbeth, La fierecilla domada, entre otros.
                                             </p>

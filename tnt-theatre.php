@@ -87,7 +87,7 @@
                         <h1 class="text-primary mt-5 mb-5 titulo text-center text-sm-start">TNT Theatre Britain</h1>
                         <p class="text-light small">
                             Este ensamble teatral fue fundado en Inglaterra (1980)
-                            por <span class="text-primary  text-decoration-underline">Paul Stebbings</span>  y otros actores entrenados en el
+                            por <a href="#director" class="text-primary  text-decoration-underline">Paul Stebbings</a>  y otros actores entrenados en el
                             método Grotowski en Gran Bretaña y Polonia.
                         </p>
                         <p class="text-light small">
@@ -157,7 +157,7 @@
                                             y preguntó si queríamos llevar esta producción a
                                             América Central. Antes de ni siquiera pensarlo ya habíamos
                                             dicho un gran SÍ”, cuenta el director
-                                            <span class="text-primary  text-decoration-underline">Paul Stebbings</span>.
+                                            <a href="#director"  class="text-primary  text-decoration-underline">Paul Stebbings</a>.
 
                                         </p>
                                         <p class="text-gray small">
@@ -169,7 +169,7 @@
                                             costarricenses y extendido nuestras giras por El Salvador,
                                             Guatemala, Nicaragua, Perú, Chile, Colombia…
                                             todo organizado por y con el
-                                            <span class="text-primary  text-decoration-underline">Teatro Espressivo</span>”.
+                                            <a href="https://espressivo.cr/" target="_blank" class="text-primary  text-decoration-underline">Teatro Espressivo</a>”.
                                         </p>
                                         <p class="text-gray small">
                                             "El Rey Lear", "Macbeth", "Hamlet", "La fierecilla
