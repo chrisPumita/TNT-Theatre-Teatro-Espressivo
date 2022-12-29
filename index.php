@@ -1,5 +1,5 @@
 <!-- ----- VERSION DEL DOCUMENTO ---------
-    VERSION 1.00.0 BUILD 27.06.22
+    VERSION 1.00.1 BUILD 29.12.22
     @autor: ReCkrea StuDios & limonne
     @website: reckreastudios.com
     @webdev: ChrisRCGS & BarbaraB.-->
@@ -88,12 +88,24 @@
                                Tour Latinoamérica 2023 <strong> - ABRIL Y MAYO</strong>
                            </div>
                         </div>
-                        <div class="row py-5">
+                        <div class="row pt-5">
                             <span class="fst-italic text-light fs-5 py-3  text-center text-md-start"> Teatro en su centro educativo</span>
                             <img src="./assets/img/header-tittle.svg" alt="">
-                            <img src="./assets/img/obras.svg" alt="">
+                            <div class="row my-4 d-flex justify-content-start">
+                                <div class="col-auto">
+                                    <a href="./theater-plays.php#view-1">
+                                        <img src="./assets/img/Macbeth.svg" class="me-3 imgTitleFestival"  data-bss-hover-animate="pulse" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-auto" style="border-left: ridge;"></div>
+                                <div class="col-auto">
+                                    <a href="./theater-plays.php#view-2">
+                                        <img src="./assets/img/Romeo-Julieta-verde.svg" class="imgTitleFestival" data-bss-hover-animate="pulse" alt="" style="margin-left: -1rem;">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row ps-xl-5  text-center text-md-start">
+                        <div class="row ps-xl-0  text-center text-md-start mt-2">
                             <p class="text-light small">
                                 TNT Theatre y Asociación Cultural Teatro Espressivo (ACTE) le presentan la gira 2023
                                 “Romeo y Julieta” / “Macbeth”. Su centro educativo podrá disfrutar
@@ -102,7 +114,7 @@
                                 ambos espectáculos en un solo día.
                             </p>
                         </div>
-                        <div class="row d-flex align-content-center justify-content-center align-items-center justify-content-center">
+                        <div class="row d-flex align-content-center justify-content-center align-items-center justify-content-center mt-2">
                             <div class="col-sm-12 col-xl-6 ps-xl-5 py-3 text-center text-xl-start">
                                 <a href="./contacto.php" class="btn btn-primary btn-lg px-5 text-secondary fw-bold " data-bss-hover-animate="pulse" type="submit">
                                     Contáctenos
@@ -186,9 +198,8 @@
                     <!-- Start: 1 Row 1 Column -->
                     <div class="container d-flex">
                         <div class="row align-items-center align-content-center mt-5 mb-5">
-                            <div class="col-md-12 col-xl-6 position-relative d-flex justify-content-center">
-                            </div>
-                            <div class="col-md-12 col-xl-6 align-self-end order-2">
+                            <div class="col-sm-12 col-xl-6 position-relative d-flex justify-content-center"></div>
+                            <div class="col-sm-12 col-xl-6 align-self-end order-2">
                                 <div class="p-1 p-sm-2" style="margin-top: 0rem; border-radius: 2rem">
                                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                         <li class="nav-item tab-my" role="presentation">
