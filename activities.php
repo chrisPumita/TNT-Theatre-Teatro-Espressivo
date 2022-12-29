@@ -129,7 +129,7 @@
             <div class="row m-0" >
                 <div class="col d-md-flex">
                     <div class="col-12 col-sm-12 col-md-4 col-xl-6 d-flex align-items-center">
-                        <img class="img-responsive" src="./assets/img/conversatorios.png" alt="">
+                        <img class="img-responsive" src="./assets/img/conversatorios.jpg" alt="">
                     </div>
                     <div class="col-12 col-sm-12 col-md-8 col-xl-6 d-flex align-items-center">
                         <div class="container">

@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Latin America Tour 2023 | GIRA TNT + ESPRESSIVO</title>
+    <title>Tour Shakespeare Latinoamérica 2023 | GIRA TNT + ACTE</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -90,7 +90,7 @@
                         <div class="col-12 position-relative d-flex justify-content-center">
                             <div class="border-tittle w-auto ps-5 pe-5 pt-3 pb-3 fs-3 text-secondary">
                                 <strong>Tour Latinoamérica 2023</strong> TNT Theatre
-                                <span class="text-light">+</span> Teatro Espressivo
+                                <span class="text-light">+</span> ACTE
                                 <span class="text-light">• ABRIL y MAYO</span>
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                     <div class="col-12 col-md-6">
                         <h2 class="text-primary py-3">Contáctenos</h2>
                         <p class="text-texto py-3 text-gray"">
-                            Nuestro equipo TNT Theatre Britain + Espressivo Gira
+                            Nuestro equipo ACTE + TNT Theatre Britain - Gira
                             2023 se pondrá en contacto con usted para brindarle la
                             atención que usted necesite.
                         </p>

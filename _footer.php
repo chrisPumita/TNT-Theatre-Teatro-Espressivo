@@ -2,10 +2,9 @@
     <div class="container">
         <div class="row  text-muted" style="padding-top: 2em;padding-bottom: 2em;">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-                <h5 class="text-primary">GIRA TNT + ESPRESSIVO</h5>
+                <h5 class="text-primary">TNT Theatre + ACTE</h5>
                 <p>
-                    Teatro Espressivo y TNT Britain
-                    Theatre colaboran acercando
+                    TNT Theatre + ACTE colaboran acercando
                     dos emblemáticas obras de
                     teatro a los centros educativos
                     en su Tour 2023 por algunos
@@ -41,12 +40,12 @@
                         <h6><i class="fas fa-envelope"></i></h6>
                     </div>
                     <div class="col-10 col-sm-11">
-                        <p class="ms-2">ventas@espressivo.cr</p>
+                        <p class="ms-2">info@shakespearelatino.com</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer-copyright bg-primary" style="padding: 0;margin: 0;">
-        <p class="text-light p-1 fs-6 ">© 2022 TNT Theatre y Teatro Espressivo | Derechos Reservados</p>
+        <p class="text-light p-1 fs-6 ">© 2022 TNT Theatre y Asociación Cultural Teatro Espressivo | Derechos Reservados</p>
     </div>

@@ -6,14 +6,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Latin America Tour 2023 | GIRA TNT + ESPRESSIVO</title>
+    <title>Gira Latinoamérica | ABRIL - MAYO 2023</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="twitter:description" content="Latin America Tour 2023">
     <meta name="twitter:title" content="Latin America Tour 2023">
     <meta property="og:image" content="assets/img/icon.svg">
-    <meta name="description" content="Teatro Espressivo y TNT Britain Theatre colaboran acercando dos emblemáticas
+    <meta name="description" content="ACTE y TNT Britain Theatre colaboran acercando dos emblemáticas
                                         obras de teatro a los centros educativos en su Tour 2023 por algunos pasíses
                                         de Latinoamérica.">
     <meta property="og:type" content="website">
@@ -91,10 +91,11 @@
                         <div class="row py-5">
                             <span class="fst-italic text-light fs-5 py-3  text-center text-md-start"> Teatro en su centro educativo</span>
                             <img src="./assets/img/header-tittle.svg" alt="">
+                            <img src="./assets/img/obras.svg" alt="">
                         </div>
                         <div class="row ps-xl-5  text-center text-md-start">
                             <p class="text-light small">
-                                TNT Theatre y Teatro Espressivo le presentan la gira 2023
+                                TNT Theatre y Asociación Cultural Teatro Espressivo (ACTE) le presentan la gira 2023
                                 “Romeo y Julieta” / “Macbeth”. Su centro educativo podrá disfrutar
                                 de estas obras de Shakespeare en el idioma inglés con talleres
                                 y foros complementarios, en presentaciones individuales o
@@ -160,7 +161,7 @@
                                     <h4 class="text-primary titulo">Abril y mayo de 2023</h4>
                                     <p class="card-text text-light py-3 py-sm-5">
                                         En abril y mayo de 2023, TNT en alianza
-                                        con <a href="https://espressivo.cr/" target="_blank" class="text-primary">Teatro Espressivo </a>
+                                        con ACTE
                                         revive la gira por
                                         América Latina, llevando las producciones
                                         más populares, Macbeth y Romeo & Julieta,
@@ -233,9 +234,7 @@
                                             </p>
                                             <p>
                                                 Desde el año 2006, Stebbings colabora regularmente con
-                                                <a href="https://espressivo.cr/" target="_blank" class="text-primary
-                                                text-decoration-underline">Teatro
-                                                Espressivo</a>, no solo como director y adaptador, sino además en
+                                                ACTE, no solo como director y adaptador, sino además en
                                                 una relación que ha traído a Costa Rica montajes suyos de El Rey
                                                 Lear, Macbeth, La fierecilla domada, entre otros.
                                             </p>
